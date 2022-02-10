@@ -1,0 +1,298 @@
+# square
+
+* [Topic]
+Geometry
+
+* Definition
+A polygon having four equal sides and four equal angles.
+
+# square
+
+* [Topic]
+Math
+
+* Definition
+The product obtained when a number or quantity is multiplied by itself.
+
+# Computer network
+
+* [Topic]
+IT
+
+* Definition
+
+A computer network is a set of computers sharing resources located on or
+provided by network nodes.
+
+# Network links
+
+* [Topic]
+Computer network
+
+* Definition
+
+The transmission media (often referred to in the literature as the physical
+medium) used to link devices to form a computer network include electrical
+cable, optical fiber, and free space.
+
+
+# Wired
+
+* [Topic]
+Network links
+
+* Coaxial cable
+Is widely used for cable television systems, office
+buildings, and other work-sites for local area networks. Transmission speed
+ranges from 200 million bits per second to more than 500 million bits per
+second.
+
+* ITU-T Ghn technology
+Uses existing home wiring (coaxial cable, phone lines
+and power lines) to create a high-speed local area network.
+
+* Twisted pair
+Is used for wired Ethernet and other standards. It
+typically consists of 4 pairs of copper cabling that can be utilized for
+both voice and data transmission. The use of two wires twisted together
+helps to reduce crosstalk and electromagnetic induction. The transmission
+speed ranges from 2 Mbit/s to 10 Gbit/s. Twisted pair cabling comes in two
+forms: unshielded twisted pair (UTP) and shielded twisted-pair (STP). Each
+form comes in several category ratings, designed for use in various
+scenarios.
+
+* Optical fiber 
+It carries pulses of light that
+represent data via lasers and optical amplifiers. Some advantages of
+optical fibers over metal wires are very low transmission loss and immunity
+to electrical interference. Using dense wave division multiplexing, optical
+fibers can simultaneously carry multiple streams of data on different
+wavelengths of light, which greatly increases the rate that data can be
+sent to up to trillions of bits per second. Optic fibers can be used for
+long runs of cable carrying very high data rates, and are used for undersea
+cables to interconnect continents. There are two basic types of fiber
+optics, single-mode optical fiber (SMF) and multi-mode optical fiber (MMF).
+Single-mode fiber has the advantage of being able to sustain a coherent
+signal for dozens or even a hundred kilometers. Multimode fiber is cheaper
+to terminate but is limited to a few hundred or even only a few dozens of
+meters, depending on the data rate and cable grade.
+
+
+# Wireless
+
+* [Topic]
+Network links
+
+* Terrestrial microwave
+Terrestrial microwave communication uses
+Earth-based transmitters and receivers resembling satellite dishes.
+Terrestrial microwaves are in the low gigahertz range, which limits all
+communications to line-of-sight. Relay stations are spaced approximately 40
+miles (64 km) apart.
+
+* Communications satellites
+Satellites also communicate via microwave. The
+satellites are stationed in space, typically in geosynchronous orbit
+35,400 km (22,000 mi) above the equator. These Earth-orbiting systems are
+capable of receiving and relaying voice, data, and TV signals.
+
+* Cellular networks
+Use several radio communications technologies. The
+systems divide the region covered into multiple geographic areas. Each area
+is served by a low-power transceiver.
+
+* Radio and spread spectrum technologies
+Wireless LANs use a high-frequency
+radio technology similar to digital cellular. Wireless LANs use spread
+spectrum technology to enable communication between multiple devices in a
+limited area. IEEE 802.11 defines a common flavor of open-standards
+wireless radio-wave technology known as Wi-Fi.
+
+* Free-space optical communication
+Uses visible or invisible light for
+communications. In most cases, line-of-sight propagation is used, which
+limits the physical positioning of communicating devices.
+
+
+# Network nodes
+
+* [Topic]
+Computer network
+
+* Definition
+
+Apart from any physical transmission media, networks are built from additional
+basic system building blocks, such as network interface controllers (NICs),
+repeaters, hubs, bridges, switches, routers, modems, and firewalls. Any
+particular piece of equipment will frequently contain multiple building blocks
+and so may perform multiple functions.
+
+* Network interfaces
+
+A network interface circuit with a port for ATM
+ 
+An ATM network interface in the form of an accessory card. A lot of network
+interfaces are built-in.
+
+A network interface controller (NIC) is computer hardware that connects the
+computer to the network media and has the ability to process low-level network
+information. For example, the NIC may have a connector for accepting a cable,
+or an aerial for wireless transmission and reception, and the associated
+circuitry.
+
+In Ethernet networks, each network interface controller has a unique Media
+Access Control (MAC) address—usually stored in the controller's permanent
+memory. To avoid address conflicts between network devices, the Institute of
+Electrical and Electronics Engineers (IEEE) maintains and administers MAC
+address uniqueness. The size of an Ethernet MAC address is six octets. The
+three most significant octets are reserved to identify NIC manufacturers. These
+manufacturers, using only their assigned prefixes, uniquely assign the three
+least-significant octets of every Ethernet interface they produce.
+
+* Repeaters and hubs
+
+A repeater is an electronic device that receives a network signal, cleans it of
+unnecessary noise and regenerates it. The signal is retransmitted at a higher
+power level, or to the other side of obstruction so that the signal can cover
+longer distances without degradation. In most twisted pair Ethernet
+configurations, repeaters are required for cable that runs longer than 100
+meters. With fiber optics, repeaters can be tens or even hundreds of kilometers
+apart.
+
+Repeaters work on the physical layer of the OSI model but still require a small
+amount of time to regenerate the signal. This can cause a propagation delay
+that affects network performance and may affect proper function. As a result,
+many network architectures limit the number of repeaters used in a network,
+e.g., the Ethernet 5-4-3 rule.
+
+An Ethernet repeater with multiple ports is known as an Ethernet hub. In
+addition to reconditioning and distributing network signals, a repeater hub
+assists with collision detection and fault isolation for the network. Hubs and
+repeaters in LANs have been largely obsoleted by modern network switches.
+
+* Bridges and switches
+
+Network bridges and network switches are distinct from a hub in that they only
+forward frames to the ports involved in the communication whereas a hub
+forwards to all ports. Bridges only have two ports but a switch can be
+thought of as a multi-port bridge. Switches normally have numerous ports,
+facilitating a star topology for devices, and for cascading additional
+switches.
+
+Bridges and switches operate at the data link layer (layer 2) of the OSI model
+and bridge traffic between two or more network segments to form a single local
+network. Both are devices that forward frames of data between ports based on
+the destination MAC address in each frame. They learn the association of
+physical ports to MAC addresses by examining the source addresses of received
+frames and only forward the frame when necessary. If an unknown destination MAC
+is targeted, the device broadcasts the request to all ports except the source,
+and discovers the location from the reply.
+
+Bridges and switches divide the network's collision domain but maintain a
+single broadcast domain. Network segmentation through bridging and switching
+helps break down a large, congested network into an aggregation of smaller,
+more efficient networks.
+
+* Routers
+
+A router is an internetworking device that forwards packets between networks by
+processing the addressing or routing information included in the packet. The
+routing information is often processed in conjunction with the routing table. A
+router uses its routing table to determine where to forward packets and does
+not require broadcasting packets which is inefficient for very big networks.
+
+* Modems
+
+Modems (modulator-demodulator) are used to connect network nodes via wire not
+originally designed for digital network traffic, or for wireless. To do this
+one or more carrier signals are modulated by the digital signal to produce an
+analog signal that can be tailored to give the required properties for
+transmission. Early modems modulated audio signals sent over a standard voice
+telephone line. Modems are still commonly used for telephone lines, using a
+digital subscriber line technology and cable television systems using DOCSIS
+technology.
+
+* Firewalls
+
+A firewall is a network device or software for controlling network security and
+access rules. Firewalls are inserted in connections between secure internal
+networks and potentially insecure external networks such as the Internet.
+Firewalls are typically configured to reject access requests from unrecognized
+sources while allowing actions from recognized ones. The vital role firewalls
+play in network security grows in parallel with the constant increase in cyber
+attacks.
+
+
+# Network packet 
+
+* Definition
+
+Most modern computer networks use protocols based on packet-mode transmission.
+A network packet is a formatted unit of data carried by a packet-switched
+network.
+
+* [Topic]
+
+Computer network
+
+
+# Network packet 
+
+* Terminology
+
+In the seven-layer OSI model of computer networking, packet strictly refers to a
+protocol data unit at layer 3, the network layer. A data unit at layer 2, the data
+link layer, is a frame. In layer 4, the transport layer, the data units are segments
+and datagrams. Thus, in the example of TCP/IP communication over Ethernet, a TCP
+segment is carried in one or more IP packets, which are each carried in one or more
+Ethernet frames. 
+
+
+# Network topology
+
+* Topic 
+[Computer network]
+
+* Definition
+The physical or geographic locations of network nodes and links generally have
+relatively little effect on a network, but the topology of interconnections of
+a network can significantly affect its throughput and reliability. With many
+technologies, such as bus or star networks, a single failure can cause the
+network to fail entirely. In general, the more interconnections there are, the
+more robust the network is; but the more expensive it is to install. Therefore
+most network diagrams are arranged by their network topology which is the map
+of logical interconnections of network hosts.
+
+
+* Bus network
+All nodes are connected to a common medium along this medium.
+This was the layout used in the original Ethernet, called 10BASE5 and
+10BASE2. This is still a common topology on the data link layer, although
+modern physical layer variants use point-to-point links instead, forming a
+star or a tree.
+
+* Star network
+All nodes are connected to a special central node. This is
+the typical layout found in a small switched Ethernet LAN, where each
+client connects to a central network switch, and logically in a wireless
+LAN, where each wireless client associates with the central wireless access
+point.
+
+* Ring network
+Each node is connected to its left and right neighbour node,
+such that all nodes are connected and that each node can reach each other
+node by traversing nodes left- or rightwards. Token ring networks, and the
+Fiber Distributed Data Interface (FDDI), made use of such a topology.
+
+* Mesh network
+Each node is connected to an arbitrary number of neighbours
+in such a way that there is at least one traversal from any node to any
+other.
+
+* Fully connected network
+Each node is connected to every other node in the network.
+
+* Tree network
+Nodes are arranged hierarchically. This is the natural
+topology for a larger Ethernet network with multiple switches and without
+redundant meshing.
